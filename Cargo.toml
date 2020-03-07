@@ -1,0 +1,14 @@
+[package]
+name = "typenum-promote"
+version = "0.1.0"
+authors = ["Hideyuki Tanaka <tanaka.hideyuki@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = "1.0"
+typenum = "1.11"
